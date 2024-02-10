@@ -1,0 +1,83 @@
+body {
+    background-color: #28282B;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.t1 {
+    color: orange;
+    text-align: center;
+    font-size: 120px;
+}
+
+.t2 {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.t1img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.tgalert {
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+}
+
+
+
+.t2-buy {
+    color: greenyellow;
+}
+
+.t1links {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+@media only screen and (max-width : 830px)  {
+    .t1 {
+        color: orange;
+        text-align: center;
+        font-size: 90px;
+    }
+    
+    .t2 {
+        color: red;
+        text-align: center;
+        font-style: italic;
+        font-size: 50px;
+    }
+    
+    .tgalert {
+        text-align: center;
+        color: yellow;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width : 630px)  {
+    .t1 {
+        color: orange;
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    .t2 {
+        color: red;
+        text-align: center;
+        font-style: italic;
+        font-size: 30px;
+    }
+    
+    .tgalert {
+        text-align: center;
+        color: yellow;
+        font-size: 20px;
+    }
+}
