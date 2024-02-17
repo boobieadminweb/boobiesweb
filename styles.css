@@ -16,6 +16,10 @@ body {
     font-size: 60px;
 }
 
+.img-wrapper {
+    width: 500px;
+    height: 450px;
+}
 .t1img {
     display: flex;
     justify-content: center;
